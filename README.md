@@ -1,5 +1,5 @@
 # stock tracker
-Simple stock tracker that sends a formatted text to yourself that contains the percent change in the stock as well as the top three articles related to the company. This project was built to practice using APIs and the requests library in Python. The project comes from a Udemy course called 100 Days of Code: The Complete Python Pro Bootcamp for 2023 by Dr. Angela Yu.
+A stock tracker sends a formatted text to yourself that contains the percent change in the stock as well as the top three articles related to the company. This project was built to practice using APIs and the requests library in Python. The project comes from a Udemy course called 100 Days of Code: The Complete Python Pro Bootcamp for 2023 by Dr. Angela Yu.
 
 ## Installing / Getting Started
 
@@ -10,6 +10,8 @@ running.
 
 ## Features
 
+* Percent change is from 2 days prior at close to yesterday at the close.
+  * change = (yesterdayFinalPrice - twoDaysAgoFinalPrice) / twoDaysAgoFinalPrice
 * In Progress
   
 ## Links
